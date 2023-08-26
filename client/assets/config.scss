@@ -1,0 +1,15 @@
+input[type="time"]::-webkit-calendar-picker-indicator {
+  background: none;
+  display: none;
+}
+
+// Подчеркивание текста
+.text-primary-underline {
+  display:inline-block;
+  border-bottom: 1px dashed #8a15ea;
+  padding-bottom:2px;
+
+  &:hover{
+      cursor: pointer;
+  }
+}

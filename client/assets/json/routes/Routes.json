@@ -1,0 +1,45 @@
+[
+    {
+        "roles": ["client"],
+        "icon": "mdi-home",
+        "title": "Главная",
+        "to": "/user/dashboard"
+    },
+    {
+        "roles": ["client"],
+        "icon": "mdi-piggy-bank-outline",
+        "title": "Кошельки",
+        "to": "/user/wallet"
+    },
+    {
+        "roles": ["client"],
+        "icon": "mdi-swap-horizontal",
+        "title": "Переводы",
+        "to": "/user/payment"
+    },
+    {
+        "roles": ["client"],
+        "icon": "mdi-cash",
+        "title": "Пополнение счета",
+        "to": "/user/topup"
+    },
+    {
+        "roles": ["client"],
+        "icon": "mdi-credit-card-outline",
+        "title": "Карты",
+        "to": "/user/card"
+    },
+    {
+        "roles": ["client"],
+        "icon": "mdi-clipboard-text-clock-outline",
+        "title": "История транзакций",
+        "to": "/user/history"
+    },
+    {
+        "roles": ["admin"],
+        "icon": "mdi-bank",
+        "title": "Управление банками",
+        "to": "/admin/bank"
+    }
+
+]
